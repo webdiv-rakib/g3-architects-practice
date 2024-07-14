@@ -144,5 +144,20 @@ button {
     h2 {
         margin: 0 auto;
     }
+    /* responsive team section */
+    .feature-container{
+        flex-direction: column;
+        gap: 0;
+        margin: 0 auto;
+    }
 
+    .teams-images{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .feature-section{
+        padding: 85px;
+    }
 }
