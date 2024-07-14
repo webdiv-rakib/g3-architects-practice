@@ -13,7 +13,7 @@ body {
 /* Navbar section style */
 h2 {
     color: rgb(19, 19, 19);
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
     margin-left: 228px;
     margin-top: 50px;
@@ -21,7 +21,7 @@ h2 {
 
 ul li a {
     color: rgb(66, 66, 66);
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
     text-decoration: none;
 }
@@ -46,7 +46,37 @@ ul li {
 }
 
 .bg {
-    width: 1920px;
     background-color: rgba(255, 144, 14, 0.1);
     margin: 0 auto;
+    margin-bottom: 205px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(19, 19, 19);
+    margin-bottom: 16px;
+    margin-top: 205px;
+}
+
+.banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    margin-bottom: 32px;
+}
+
+button {
+    color: white;
+    padding: 15px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: rgb(255, 144, 14);
+    border-style: none;
+    border-radius: 8px; 
+    margin-bottom: 50px;   
 }
