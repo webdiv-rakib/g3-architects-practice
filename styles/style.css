@@ -95,6 +95,7 @@ button {
     margin-right: 240px;
     margin-left: 240px;
     margin-top: 85px;
+    margin-bottom: 130px;
 }
 
 .teams-images {
@@ -132,6 +133,25 @@ button {
     margin-bottom: 32px;
 }
 
+/* Offers section style */
+
+.offers-container {
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.offer-full-section {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 146px;
+}
+
+.all-offers {
+    justify-content: flex-start;
+}
+
+
 /* Responsive media query */
 @media screen and (max-width: 576px) {
 
@@ -144,20 +164,21 @@ button {
     h2 {
         margin: 0 auto;
     }
+
     /* responsive team section */
-    .feature-container{
+    .feature-container {
         flex-direction: column;
         gap: 0;
         margin: 0 auto;
     }
 
-    .teams-images{
+    .teams-images {
         display: flex;
         flex-direction: column;
-        
+
     }
 
-    .feature-section{
+    .feature-section {
         padding: 85px;
     }
 }
