@@ -84,10 +84,25 @@ button {
     width: 75%;
     margin-bottom: 45px;
 }
+
 /* Team section style */
-.feature-container{
-    border: 2px solid;
+.feature-container {
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    gap: 76px;
+    margin-right: 240px;
+    margin-left: 240px;
+    margin-top: 85px;
 }
+
+.teams-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+
 /* Responsive media query */
 @media screen and (max-width: 576px) {
 
