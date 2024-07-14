@@ -77,10 +77,10 @@ button {
     font-weight: 600;
     background-color: rgb(255, 144, 14);
     border-style: none;
-    border-radius: 8px; 
-    margin-bottom: 50px;   
+    border-radius: 8px;
+    margin-bottom: 50px;
 }
 
-.banner-image{
+.banner-image {
     width: 75%;
 }
