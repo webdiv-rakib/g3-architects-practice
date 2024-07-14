@@ -80,3 +80,7 @@ button {
     border-radius: 8px; 
     margin-bottom: 50px;   
 }
+
+.banner-image{
+    width: 75%;
+}
