@@ -84,3 +84,8 @@ button {
 .banner-image {
     width: 75%;
 }
+
+/* Responsive media query */
+@media screen and (max-width: 576px) {
+    
+}
