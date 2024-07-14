@@ -87,5 +87,15 @@ button {
 
 /* Responsive media query */
 @media screen and (max-width: 576px) {
-    
+
+    .container,
+    .nav-links {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    h2 {
+        margin: 0 auto;
+    }
+
 }
