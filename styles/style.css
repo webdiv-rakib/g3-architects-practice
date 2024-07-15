@@ -151,6 +151,20 @@ button {
     justify-content: flex-start;
 }
 
+.offer-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-top: 169px;
+    margin-left: 26px;
+}
+
+.offer-description{
+    margin-top: 24px;
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 
 /* Responsive media query */
 @media screen and (max-width: 576px) {
